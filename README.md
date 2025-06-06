@@ -3,8 +3,8 @@
 RFM segmentation is a customer classification technique based on three transactional metrics: Recency, Frequency, and Monetary value. This method provides insights into customer value and behavior, supporting the development of targeted marketing and customer relationship strategies. The objective of this project is to implement RFM segmentation using SQL to classify customers based on their purchasing behavior and extract actionable insights that support data-driven marketing and customer retention efforts.
 ## Database Setup
 - Create a database named ``` RFM_SALES.
-  
-CREATE DATABASE IF NOT EXISTS RFM_SALES;
+```sql
+  CREATE DATABASE IF NOT EXISTS RFM_SALES;
 USE RFM_SALES;
 CREATE TABLE SALES_SAMPLE_DATA (
     ORDERNUMBER INT(8),
@@ -33,3 +33,4 @@ CREATE TABLE SALES_SAMPLE_DATA (
     CONTACTFIRSTNAME VARCHAR(16),
     DEALSIZE VARCHAR(10)
 );
+```
