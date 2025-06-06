@@ -34,3 +34,6 @@ CREATE TABLE SALES_SAMPLE_DATA (
     DEALSIZE VARCHAR(10)
 );
 ```
+- Import wizard data
+## Dataset Exploration
+``` SELECT * FROM SALES_SAMPLE_DATA LIMIT 5; ```
