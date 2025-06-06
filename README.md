@@ -37,3 +37,4 @@ CREATE TABLE SALES_SAMPLE_DATA (
 - Import wizard data
 ## Dataset Exploration
 ``` SELECT * FROM SALES_SAMPLE_DATA LIMIT 5; ```
+-- OUTPUT --
